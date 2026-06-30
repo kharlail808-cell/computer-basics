@@ -82,7 +82,7 @@ Mengamati perubahan penggunaan CPU, RAM, dan Disk saat membuka aplikasi mengguna
 
 ---
 
-# 📊 Hasil Pengamatan
+# Hasil Pengamatan
 
 ## Kondisi Sebelum Membuka Google Chrome
 
