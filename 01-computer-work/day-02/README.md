@@ -12,7 +12,7 @@
 
 ---
 
-# 📚 Materi
+# Materi
 
 ## Hubungan CPU, RAM, dan Storage
 
