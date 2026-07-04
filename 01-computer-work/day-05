@@ -1,0 +1,81 @@
+# Hari 05 - RAM dan Virtual Memory
+
+**Tanggal:** 03 Juli 2026
+
+---
+
+# Tujuan Belajar
+
+- Memahami fungsi RAM dalam komputer.
+- Mengamati perubahan penggunaan RAM saat aplikasi dibuka dan ditutup.
+- Memahami bahwa RAM digunakan oleh sistem operasi dan aplikasi.
+- Memahami konsep cache dan Virtual Memory.
+
+---
+
+# Materi
+
+- RAM (Random Access Memory) adalah tempat penyimpanan data sementara.
+- CPU mengambil data dari RAM karena RAM jauh lebih cepat daripada Storage.
+- Windows juga menggunakan RAM untuk menjalankan sistem dan layanan di latar belakang.
+- Saat RAM hampir penuh, Windows dapat menggunakan Virtual Memory pada Storage.
+- Sebagian data dapat tetap berada di RAM sebagai cache agar aplikasi lebih cepat dibuka kembali.
+
+---
+
+# Praktik
+
+## Tujuan
+
+Mengamati perubahan penggunaan RAM saat membuka dan menutup beberapa aplikasi.
+
+## Alat
+
+- Laptop
+- Windows
+- Task Manager
+
+## Langkah
+
+1. Membuka Task Manager.
+2. Mencatat penggunaan RAM saat kondisi awal.
+3. Membuka Calculator.
+4. Membuka Google Chrome dengan beberapa tab.
+5. Mengamati perubahan penggunaan RAM.
+6. Menutup semua aplikasi.
+7. Mengamati kembali penggunaan RAM.
+
+---
+
+# Hasil Pengamatan
+
+| Kondisi | RAM Digunakan | Persentase | Pengamatan |
+|---------|---------------|------------|------------|
+| Kondisi awal | 3,2 GB | 54% | RAM sudah digunakan oleh Windows dan proses latar belakang. |
+| Calculator | 3,4 GB | 58% | Penggunaan RAM bertambah sedikit karena aplikasi ringan. |
+| Chrome (beberapa tab) | 3,9 GB | 66% | Chrome menggunakan RAM lebih besar untuk memuat halaman web. |
+| Chrome (lebih banyak tab) | 4,8 GB | 83% | Penggunaan RAM meningkat karena lebih banyak data yang dimuat. |
+| Setelah semua aplikasi ditutup | 3,4 GB | 58% | RAM berkurang, tetapi tidak kembali seperti kondisi awal karena masih ada cache. |
+
+---
+
+# Analisis
+
+- RAM bertambah setiap kali aplikasi dibuka.
+- Chrome menggunakan RAM paling banyak dibandingkan aplikasi lain.
+- Setelah aplikasi ditutup, RAM tidak langsung kembali ke kondisi awal karena Windows masih menyimpan sebagian data sebagai cache.
+- Selama praktik, RAM belum menjadi bottleneck karena masih tersedia sekitar 1 GB memori yang dapat digunakan.
+
+---
+
+# Kesimpulan
+
+Saya memahami bahwa RAM merupakan penyimpanan sementara yang digunakan oleh sistem operasi dan aplikasi. Penggunaan RAM akan meningkat saat membuka aplikasi dan berkurang saat aplikasi ditutup. Sebagian data tetap berada di RAM sebagai cache agar aplikasi dapat dibuka lebih cepat jika digunakan kembali.
+
+---
+
+# Pertanyaan
+
+1. Apa perbedaan cache dan Virtual Memory?
+2. Mengapa Windows tetap menggunakan RAM meskipun tidak ada aplikasi yang dibuka?
+3. Kapan RAM dapat menjadi bottleneck bagi komputer?
